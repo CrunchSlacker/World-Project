@@ -4,6 +4,8 @@ public interface iAnimals {
     void getName();
     void getAge();
     void getWeight();
+    void getOlder();
+    void gainWeight();
 
     //Returning
     String returnAnimal();

@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Animals implements iAnimals{
@@ -34,6 +35,16 @@ public class Animals implements iAnimals{
         Scanner input = new Scanner(System.in);
         System.out.println("How much does " + returnName() + " weigh in pounds?");
         weight = input.nextInt();
+    }
+
+    @Override
+    public void getOlder() {
+        age ++;
+    }
+
+    @Override
+    public void gainWeight() {
+        weight = weight + new Random().nextInt(101);
     }
 
     @Override
