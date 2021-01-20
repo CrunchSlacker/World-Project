@@ -7,7 +7,7 @@ public interface iAnimals {
     void getOlder();
     void gainWeight();
 
-    //Returning
+    //Returning test
     String returnAnimal();
     String returnName();
     int returnAge();
